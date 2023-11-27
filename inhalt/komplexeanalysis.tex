@@ -1,0 +1,10 @@
+\section{Komplexe Zahlen und $e^{ix}$}
+Eulers Formel ist ein grundlegendes Konzept in der komplexen Analyse. Es verknüpft die trigonometrischen Funktionen von Sinus und Cosinus mit der komplexen Exponentialfunktion. Es gilt, dass $e^\theta = i\sin\theta + \cos\theta$ ist.
+Diese Formel wird zum Beispiel verwendet, um die Nullstellen von Polynomgleichungen mit Sinus- und Cosinusfunktionen zu berechnen. Sie kann auch verwendet werden, um die Fourier-Serie einer periodischen Funktion zu erschließen, welches wichtig für das Arbeiten mit Audio und Radio/Internet-Wellen ist. Darüber hinaus bietet die Formel von Euler eine bequeme Möglichkeit, komplexe exponentielle Ausdrücke in einfachere Ausdrücke zu verwandeln.
+\subsection{Die Eigenschaften von $e^z$ im komplexen Raum}
+Was sind eigentlich komplexe Exponenten? Sicherlich multipliziert man $e$ nicht $\sqrt{-1}\pi$ mal mit sich selbst? Hierfür wird die Summation aus dem voherigen Abschnitt genommen, um die Funktion in den komplexen Raum zu erweitern. \[
+  e^{ix} = \sum_{n=0}^\infty \frac{(ix)^n}{n!}
+  \] Wer mit den Summationen vertraut ist, die $\cos$ und  $\sin$ definieren, dann kann sich die Gleichheit von $e^{ix}$ und  $i\sin{x}+ \cos{x}$ mit dieser Formel herleiten.  \[
+\sum_{n=0}^\infty \frac{(ix)^n}{n!} = (\frac{ix}{1!} - \frac{ix^3}{3!} + \frac{ix^5}{5!} + \dots) + (1 - \frac{x^2}{2!} + \frac{x^4}{4!} - \frac{x^6}{6!} + \dots) = i\sin{x} + \cos{x}
+\] Eine intuitivere Erklärung man durch das Ableiten von $e^{ix}$ erhalten. Da  $\frac{d}{dx}e^{ix} = ie^{ix}$ ist und das Multiplizieren mit $i$ im komplexen Raum die Rotation von 90° symbolisiert, besitzt diese Funktion die Eigenschaft, dass Tangenten an der Funktion stets 90° oder senkrecht 
+zu einer gegebenen Position anliegen. Zusammen mit dem Startwert von 1 ergibt das nur eine Möglichkeit: der Einheitskreis im komplexen Raum.

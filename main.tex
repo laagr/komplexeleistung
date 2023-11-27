@@ -1,0 +1,46 @@
+\documentclass[12pt]{article}
+
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{subfiles}
+\usepackage{hyphsubst}
+\usepackage[ngerman]{babel}
+\usepackage{times}
+\usepackage[onehalfspacing]{setspace}
+\usepackage{geometry}
+\usepackage[none]{hyphenat}
+\usepackage{graphicx}
+
+\graphicspath{ {./} }
+\hbadness = 10000
+\sloppy
+
+\geometry{
+  left = 2.5cm,
+  right = 4.5cm,
+  top = 2.5cm,
+  bottom = 2.5cm
+}
+
+\newcommand{\crel}[1]{%
+  \global\setbox1=\hbox{$#1$}%
+  \global\dimen1=0.5\wd1
+  \mathrel{\hbox to\dimen1{$#1$\hss}}&\mathrel{\mspace{-\thickmuskip}\hbox to\dimen1{}}%
+}
+
+\parindent 0mm
+\setcounter{tocdepth}{3}
+
+\begin{document}
+\subfile{inhalt/titelblatt.tex}
+\tableofcontents
+\newpage
+\subfile{inhalt/vorwort.tex}
+\subfile{inhalt/einleitung.tex}
+\subfile{inhalt/eulerunddiezahl.tex}
+\subfile{inhalt/reelleanalysis.tex}
+\subfile{inhalt/komplexeanalysis.tex}
+\subfile{inhalt/darstellungsformen.tex}
+\subfile{inhalt/naeherungen.tex}
+\subfile{inhalt/quellenverzeichnis.tex}
+\end{document}

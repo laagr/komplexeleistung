@@ -1,0 +1,11 @@
+\newdimen\dx
+\def\dm#1#2{\dx=1em\relax\def\rt{#1}{\Dm#2\dm}}
+\def\Dm#1{\ifx#1\dm\else\fontsize\dx\dx\selectfont#1\dx=\rt\dx\expandafter\Dm\fi}
+
+\section{Einleitung}
+\dm{0.95}{2,718281828459045235360287471\dots} und so weiter und so fort - diese endlose Kette von Zahlen, die sich aus der Konstante $e$ ergeben, führen uns in eine faszinierende Welt der Wissenschaft und Mathematik. Als Erstes jedoch unternehme ich einen Exkurs in die Geschichte und bestimme die Verhältnisse, unter der die Eulersche Zahl entdeckt und angewendet wurde und wie genau Euler selbst damit in Verbindung stand. Danach untersuche ich die Anwendung der Eulerschen Zahl in Gleichungen wie \[
+  e^x = \frac{de^x}{dx}  
+\] und \[
+e^{i\theta} = i\sin{\theta} + \cos{\theta}
+\] Wobei ich in reelle Analysis und komplexe Analysis unterteile. 
+Das wichtigste Thema meiner komplexen Leistung behandelt die verschiedenen Darstellungsformen von $e$. Dabei untersuche ich eine Vielzahl von Darstellungen, zum Beispiel $e$ in unterschiedlichen Basen, $e$ als unendlichen Bruch, $e$ als Limes von Funktionen, $e$ als unendliche Summation und Einiges mehr. Diese Darstellungen untersuche ich dann auf Genauigkeit und Anwendung und werde im praktischen Teil die Zahl mithilfe einer Näherung und einem Computer auf Einhunderttausend Nachkommastellen bestimmen.
