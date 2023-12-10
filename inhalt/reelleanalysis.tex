@@ -5,7 +5,7 @@ Wie bereits erwähnt, ist die Funtion $e^x$ ihre eigene Ableitung. Aus dieser Ei
 \[e^x = \sum_{n=0}^\infty \frac{x^n}{n!}
   \]Um dies zu beweisen, kann die Ableitungseigenschaft genutzt werden. Da die Exponentialfunktion ihre eigene Ableitung ist, müsste dies daher auch für die Summation gelten.  \[
   \sum_{n=0}^\infty \frac{x^n}{n!} = \frac{d}{dx}\sum_{n=0}^\infty \frac{x^n}{n!} = \sum_{n=0}^\infty \frac{d}{dx}\frac{x^n}{n!} 
-  \] Dank der Summationsregel von Ableitungen kann man die Ableitung auf jeden Summanten einzeln Anwenden. Schreibt man diese Summe dann aus, dann wird es schnell eindeutig, dass die Funktion sich nicht verändert hat. \[
+  \] Dank der Summationsregel von Ableitungen kann man die Ableitung auf jeden Summanten einzeln anwenden. Schreibt man diese Summe dann aus, dann wird es schnell eindeutig, dass die Funktion sich nicht verändert hat. \[
   \sum_{n=0}^\infty \frac{x^n}{n!} = 1 + \frac{x}{1} + \frac{x^2}{2} + \frac{x^3}{6} + \frac{x^4}{24} + \frac{x^5}{120} + \dots
   \] \[
   \sum_{n=0}^\infty \frac{d}{dx}\frac{x^{n}}{n!} = 0 +  1 + \frac{x}{1} + \frac{x^2}{2} + \frac{x^3}{6} + \frac{x^4}{24} + \dots
@@ -16,16 +16,16 @@ Wie bereits erwähnt, ist die Funtion $e^x$ ihre eigene Ableitung. Aus dieser Ei
     \frac{1}{0!} + \frac{1}{1!} + \dots + \frac{1}{100!} = \indent\crel{2},718281828459\dots
   \end{aligned}
 \] \newpage
-Wenn bis n = 1 gerechnet wird, stimmt keine Kommastelle überein. Rechnet man bis 10, dann stimmen die ersten 7 Kommastellen mit der tatsächlichen Zahl überein. Beim Ausrechnen bis n = 100 sind bereits die ersten 159 Stellen richtig. Insgessamt scheint mir diese Näherung daher als mögliche Option für das Berechnen von $e$ auf 100000 Nachkommastellen.
+Wenn bis n = 1 gerechnet wird, stimmt keine Kommastelle überein. Rechnet man bis 10, dann stimmen die ersten 7 Kommastellen mit der tatsächlichen Zahl überein. Beim Ausrechnen bis n = 100 sind bereits die ersten 159 Stellen richtig. Insgessamt scheint mir diese Näherung daher als mögliche Option für das Berechnen von $e$ auf 100.000 Nachkommastellen.
 \begin{figure}[h]
   \includegraphics{medien2/summation/summation.pdf}
   \centering
 \end{figure}
 \par Die X-Achse repräsentiert die Anzahl an richtigen Nachkommastellen und die Y-Achse zeigt die Anzahl an Summationen. Der Graph deutet dabei auf lineares Wachstum hin.
 \subsubsection{Die Eulersche Zahl als Limes}
-Die zweite Formel für $e$, die sich aus ihrer Ableitung herleiten lässt kommt dann zustande, wenn man die Ableitung nach ihrer Definition betrachtet. \[
+Die zweite Formel für $e$, die sich aus ihrer Ableitung herleiten lässt, kommt dann zustande, wenn man die Ableitung nach ihrer Definition betrachtet. \[
 e^x = \lim_{h\to0} \frac{e^{x+h}-e^x}{h}\]
-Diese Formel kann man dann wie folgt nach $e$ umstellen:\[
+Diese Formel kann man wie folgt nach $e$ umstellen:\[
 e = \lim_{h\to0} (h + 1)^{\frac{1}{h}}\] 
 und $h$ wird meistens mit $\frac{1}{n}$ substituiert, um die Formel zu vereinfachen.\[
 e = \lim_{n\to\infty} (1+\frac{1}{n})^n\]

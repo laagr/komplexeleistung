@@ -13,5 +13,5 @@
 \contentsline {subsubsection}{\numberline {6.1.1}Basis 10}{9}{}%
 \contentsline {subsubsection}{\numberline {6.1.2}Basis 2}{9}{}%
 \contentsline {subsection}{\numberline {6.2}Die Eulersche Zahl als unendlicher Bruch}{9}{}%
-\contentsline {section}{\numberline {7}die Eulersche Zahl auf Einhunderttausend Stellen}{9}{}%
+\contentsline {section}{\numberline {7}Die Eulersche Zahl auf Einhunderttausend Stellen}{9}{}%
 \contentsline {section}{\numberline {8}Quellenverzeichnis}{9}{}%
