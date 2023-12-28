@@ -1,7 +1,7 @@
-\section{Die Eulersche Zahl in der Analysis} Die Exponentialfunktion von $e$ ist möglicherweise die wichtigste Funktion der Mathematik - aus dem einfachen Grund, dass sie ihre eigene Ableitung ist. Infakt wird die Eulerische Zahl mit dieser Eigenschaft definiert, ähnlich wie $\pi$ durch den Vergleich von Umfang und Radius in einem Kreis definiert wird.
+\section{Die Eulersche Zahl in der Analysis} Die Exponentialfunktion von $e$ ist möglicherweise die wichtigste Funktion der Mathematik - aus dem einfachen Grund, dass sie ihre eigene Ableitung ist. Manche sagen sogar, die Eulersche Zahl wird mit dieser Eigenschaft definiert, ähnlich wie $\pi$ durch den Vergleich von Umfang und Radius in einem Kreis definiert wird.
 \subsection{Die Eigenschaften von $e^x$}
 Wie bereits erwähnt, ist die Funtion $e^x$ ihre eigene Ableitung. Aus dieser Eigenschaft lassen sich gleich 2 bekannte Formeln für das Berechnen von $e$ herleiten:
-\subsubsection{Die Eulersche Zahl als undendliche Summation}
+\subsubsection{Die Eulersche Zahl als undendliche Summe}
 \[e^x = \sum_{n=0}^\infty \frac{x^n}{n!}
   \]Um dies zu beweisen, kann die Ableitungseigenschaft genutzt werden. Da die Exponentialfunktion ihre eigene Ableitung ist, müsste dies daher auch für die Summation gelten.  \[
   \sum_{n=0}^\infty \frac{x^n}{n!} = \frac{d}{dx}\sum_{n=0}^\infty \frac{x^n}{n!} = \sum_{n=0}^\infty \frac{d}{dx}\frac{x^n}{n!} 
@@ -9,7 +9,7 @@ Wie bereits erwähnt, ist die Funtion $e^x$ ihre eigene Ableitung. Aus dieser Ei
   \sum_{n=0}^\infty \frac{x^n}{n!} = 1 + \frac{x}{1} + \frac{x^2}{2} + \frac{x^3}{6} + \frac{x^4}{24} + \frac{x^5}{120} + \dots
   \] \[
   \sum_{n=0}^\infty \frac{d}{dx}\frac{x^{n}}{n!} = 0 +  1 + \frac{x}{1} + \frac{x^2}{2} + \frac{x^3}{6} + \frac{x^4}{24} + \dots
-\]Weil die Gleichheit der 2 Terme dadurch bewiesen ist, kann man nun durch das Einsetzen von x durch 1 die Eulerische Zahl mithilfe der Summation berechnen. \[
+\]Weil die Gleichheit der 2 Terme dadurch veranschaulicht ist, kann man nun durch das Einsetzen von x durch 1 die Eulerische Zahl mithilfe der Summation berechnen. \[
   \begin{aligned}
     \frac{1}{0!} + \frac{1}{1!} = \indent\crel{2},\underline{0}\\
     \frac{1}{0!} + \frac{1}{1!} + \dots + \frac{1}{10!} =  \indent\crel{2},7182818\underline{0}\dots\\
@@ -20,9 +20,10 @@ Wenn bis n = 1 gerechnet wird, stimmt keine Kommastelle überein. Rechnet man bi
 \begin{figure}[h]
   \includegraphics{medien2/summation/summation.pdf}
   \centering
+  \caption{Genauigkeit von $e$, wenn sie mit der Summenformel berechnet wird}
 \end{figure}
-\par Die X-Achse repräsentiert die Anzahl an richtigen Nachkommastellen und die Y-Achse zeigt die Anzahl an Summationen. Der Graph deutet dabei auf lineares Wachstum hin.
-\subsubsection{Die Eulersche Zahl als Limes}
+\par Die X-Achse repräsentiert die Anzahl an richtigen Nachkommastellen und die Y-Achse zeigt die Anzahl an Summationen. Der Graph deutet dabei auf lineares Wachstum hin, welches besser ist als beispielsweise logarithmisches Wachstum. Möglicherweise gibt es aber bessere Näherungen mit quadratischem, exponentiellen, \dots Wachstum.
+\subsubsection{Die Eulersche Zahl als Grenzwert}
 Die zweite Formel für $e$, die sich aus ihrer Ableitung herleiten lässt, kommt dann zustande, wenn man die Ableitung nach ihrer Definition betrachtet. \[
 e^x = \lim_{h\to0} \frac{e^{x+h}-e^x}{h}\]
 Diese Formel kann man wie folgt nach $e$ umstellen:\[
@@ -39,4 +40,5 @@ Die Konvergenz zum tatsächlichen Wert ist hierbei unglaublich langsam im Vergle
 \begin{figure}[h]
   \includegraphics{medien2/limes/limes.pdf}
   \centering
+  \caption{Genauigkeit von $e$, wenn sie mit einem Limes berechnet wird}
 \end{figure}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Arch Linux) (preloaded format=pdflatex 2023.12.18)  22 DEC 2023 19:11
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Arch Linux) (preloaded format=pdflatex 2023.12.18)  28 DEC 2023 10:21
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -273,43 +273,49 @@ LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 4.
  (/usr/share/texmf-dist/tex/latex/psnfss/ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
-<./medien/eulersidentität.pdf, id=17, 227.62239pt x 170.7168pt>
+<./medien/eulersidentität.pdf, id=18, 201.50583pt x 165.00246pt>
 File: ./medien/eulersidentität.pdf Graphic file (type pdf)
 <use ./medien/eulersidentität.pdf>
 Package pdftex.def Info: ./medien/eulersidentität.pdf  used on input line 16.
-(pdftex.def)             Requested size: 227.62183pt x 170.71637pt.
+(pdftex.def)             Requested size: 201.50533pt x 165.00204pt.
  [3 <./medien/eulersidentität.pdf>]) (./inhalt/reelleanalysis.tex [4] [5]
-<./medien2/summation/summation.pdf, id=59, 221.93114pt x 173.56242pt>
+<./medien2/summation/summation.pdf, id=60, 221.93114pt x 173.56242pt>
 File: ./medien2/summation/summation.pdf Graphic file (type pdf)
 <use ./medien2/summation/summation.pdf>
 Package pdftex.def Info: ./medien2/summation/summation.pdf  used on input line 21.
 (pdftex.def)             Requested size: 221.93057pt x 173.562pt.
  [6 <./medien2/summation/summation.pdf>]
-<./medien2/limes/limes.pdf, id=72, 221.93114pt x 173.56242pt>
+<./medien2/limes/limes.pdf, id=70, 221.93114pt x 173.56242pt>
 File: ./medien2/limes/limes.pdf Graphic file (type pdf)
 <use ./medien2/limes/limes.pdf>
-Package pdftex.def Info: ./medien2/limes/limes.pdf  used on input line 40.
+Package pdftex.def Info: ./medien2/limes/limes.pdf  used on input line 41.
 (pdftex.def)             Requested size: 221.93057pt x 173.562pt.
 ) (./inhalt/komplexeanalysis.tex [7 <./medien2/limes/limes.pdf>]) (./inhalt/darstellungsformen.tex
-<./medien2/basis10/basis10.pdf, id=81, 221.93114pt x 173.56242pt>
+<./medien2/basis10/basis10.pdf, id=79, 185.25912pt x 168.2295pt>
 File: ./medien2/basis10/basis10.pdf Graphic file (type pdf)
 <use ./medien2/basis10/basis10.pdf>
 Package pdftex.def Info: ./medien2/basis10/basis10.pdf  used on input line 7.
-(pdftex.def)             Requested size: 221.93057pt x 173.562pt.
- [8]) (./inhalt/naeherungen.tex) (./inhalt/quellenverzeichnis.tex [9 <./medien2/basis10/basis10.pdf>]) [10] (./main.aux) ) 
+(pdftex.def)             Requested size: 185.25867pt x 168.22908pt.
+ [8]
+<./medien2/basis2/basis2.pdf, id=83, 136.13057pt x 122.31094pt>
+File: ./medien2/basis2/basis2.pdf Graphic file (type pdf)
+<use ./medien2/basis2/basis2.pdf>
+Package pdftex.def Info: ./medien2/basis2/basis2.pdf  used on input line 15.
+(pdftex.def)             Requested size: 136.13023pt x 122.31062pt.
+) (./inhalt/naeherungen.tex) (./inhalt/quellenverzeichnis.tex [9 <./medien2/basis10/basis10.pdf> <./medien2/basis2/basis2.pdf>]) [10] (./main.aux) ) 
 Here is how much of TeX's memory you used:
- 4686 strings out of 477985
- 74691 string characters out of 5840057
+ 4695 strings out of 477985
+ 74953 string characters out of 5840057
  1862388 words of memory out of 5000000
- 24742 multiletter control sequences out of 15000+600000
+ 24748 multiletter control sequences out of 15000+600000
  578044 words of font info for 140 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 57i,9n,62p,904b,282s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
-Output written on main.pdf (11 pages, 203624 bytes).
+ 57i,9n,62p,988b,282s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
+Output written on main.pdf (11 pages, 219980 bytes).
 PDF statistics:
- 153 PDF objects out of 1000 (max. 8388607)
- 97 compressed objects within 1 object stream
+ 161 PDF objects out of 1000 (max. 8388607)
+ 104 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 21 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 26 words of extra memory for PDF output out of 10000 (max. 10000000)
 
