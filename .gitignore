@@ -1,3 +1,11 @@
-python/bin
-python/lib
-python/include
+/python/bin
+/python/lib
+/python/include
+
+/*.synctex.gz
+/*.tex
+/*.toc
+/*.aux
+/*.fdb_latexmk
+/*.fls
+/*.log
