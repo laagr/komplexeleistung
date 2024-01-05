@@ -3,7 +3,10 @@ def spigot_e(precision):
     # Variabeln
     x = 0
     a = [0,2]
-    for j in range(2,precision+1): a.append(1)
+    n = precision
+    while n: 
+        a.append(1)
+        n = n - 1
     out = ""
     file1 = open("output-tropf.txt", "w")
 
