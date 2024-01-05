@@ -3,7 +3,7 @@ def spigot_e(precision):
     # Variabeln
     x = 0
     a = [0,2]
-    n = precision
+    n = precision - 2
     while n: 
         a.append(1)
         n = n - 1
