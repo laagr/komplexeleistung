@@ -1,9 +1,9 @@
 /python/bin
 /python/lib
+/python/lib64
 /python/include
 
 *.synctex.gz
-*.tex
 *.toc
 *.aux
 *.fdb_latexmk
