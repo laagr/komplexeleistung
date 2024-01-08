@@ -3,13 +3,12 @@
 \pgfplotsset{compat=1.18, width = 5cm}
 \pagestyle{empty}
 \begin{document}
-\begin{center}
   \begin{tikzpicture}
     \begin{axis}[
       xlabel=Ziffer,
       xmin=0, xmax=2,
-      ymin=1600, ymax=1700,
-      ytick= {1600, 1650, 1700},
+      ymin=0, ymax=1700,
+      ytick= {800,1600},
       ybar interval = 0.7,
       ]
       \addplot[
@@ -19,5 +18,4 @@
         (0, 1669)(1, 1657)(2, 1600)};
     \end{axis} 
   \end{tikzpicture}  
-\end{center}
 \end{document}
