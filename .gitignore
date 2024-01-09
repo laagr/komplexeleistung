@@ -1,4 +1,5 @@
-/python/**
+!/python
+/python/*
 !/python/output
 
 *.synctex.gz
