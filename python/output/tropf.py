@@ -1,11 +1,18 @@
-import math
+def smallest_factn_k_digits(k):
+    n = 0
+    factorial = 1
+    while len(str(factorial)) < k:
+        n = n + 1
+        factorial = factorial * n
+    return n
+    
 
 def spigot_e(precision):
 
     # Variabeln
     x = 0
     a = [0,2]
-    n = math.ceil(math.log10(math.factorial(precision)))
+    n = smallest_factn_k_digits(precision)
     while n: 
         a.append(1)
         n = n - 1
@@ -26,4 +33,6 @@ def spigot_e(precision):
     file1.write(out)
     file1.close()
 
+
 spigot_e(10 ** 6)
+
