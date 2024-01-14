@@ -21,7 +21,7 @@ def spigot_e(precision):
     file1 = open("output-tropf.txt", "w")
 
     # Loop
-    while i > 10:
+    while i > 0:
         n = i 
         i = i - 1
         while n > 1:
