@@ -10,7 +10,7 @@ def smallest_factn_k_digits(k):
 def spigot_e(precision):
 
     # Variabeln
-    x = 0
+    x = 10
     a = [0,2]
     n = smallest_factn_k_digits(precision)
     while n: 
