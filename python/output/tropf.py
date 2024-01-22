@@ -16,14 +16,13 @@ def spigot_e(precision):
     while n: 
         a.append(1)
         n = n - 1
-    i = a.__len__()
     out = ""
     file1 = open("output-tropf.txt", "w")
 
     # Loop
-    while i > 0:
-        n = i 
-        i = i - 1
+    while precision > 0:
+        n = a.__len__()
+        precision = precision - 1
         while n > 1:
             n = n - 1
             a[n] = x % n
